@@ -1,0 +1,74 @@
+/* Hover action */
+@charset "utf-8";
+
+/* 
+header text 
+*/
+
+button:hover {
+    width: clamp(53px, 4.026vw, 66px);
+    height: clamp(53px, 4.026vw, 66px);
+    box-shadow: 1px 1px 1px rgb(227, 227, 227);
+    transition:  all .5s .1s ease-out;
+}
+
+button:active {
+    width: clamp(50px, 3.66vw, 60px);
+    height: clamp(50px, 3.66vw, 60px);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    transition:  all 0s 0s;
+}
+
+nav ul:first-child li:hover {
+    color: #EF2B41;
+    padding-left: clamp( 20px, 1em, 25px);
+    transition:  all .5s .25s ease-out;
+}
+
+nav ul:last-child li:hover {
+    color: #EF2B41;
+    padding-left: clamp( 20px, 1em, 25px);
+    transition:  all .2s .25s ease-out;
+}
+
+/* 
+Portfolio link 
+*/
+
+.portfolio-card:hover {
+    transform: scale(1.1);
+    transition:  all .2s .4s ease-out;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, .5);
+}
+
+.portfolio-card:hover .portfolio-content {
+    opacity: 1;
+    transition:  all .2s .4s ease-out;
+    transform: translateY(0);
+}
+
+.portfolio-card:hover .portfolio-content a:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    transition:  all 0s 0s;
+}
+
+.portfolio-card:hover .portfolio-content a:active {
+    box-shadow: 0 0 0;
+    transition:  all 0s 0s;
+}
+
+/* 
+Footer text 
+*/
+
+.top-box li:hover {
+    color: #eb3d3d;
+    padding-left:clamp( 20px,1em, 25px);
+    transition:  all .2s .25s ease-out;
+}
+
+.bottom-box li:hover {
+    color: #eb3d3d;
+    padding-left:clamp( 20px,1em, 25px);
+    transition:  all .2s .25s ease-out;
+}

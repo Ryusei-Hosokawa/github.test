@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+
+
+
+#horizontal-area {
+    overflow: hidden;
+    overscroll-behavior: none;
+    height: 100vh;
+}
+
+#js-wrapper {
+    display: flex;
+}
+
+.top_video,
+.parallax_about,
+.parallx_interest,
+footer {
+    height: 768px;
+    width: 1366px;
+}
